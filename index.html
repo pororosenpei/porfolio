@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Charles Eiric N. Melegrito | Web Developer &amp; IT Student Portfolio</title>
+    <meta name="title" content="Charles Eiric N. Melegrito | Web Developer &amp; IT Student Portfolio" />
+    <meta name="description" content="Personal portfolio of Charles Eiric N. Melegrito - Web Developer and BSIT Student specializing in PHP, MySQL, JavaScript, HTML5, CSS3, and modern responsive web applications." />
+    <meta name="keywords" content="Charles Eiric Melegrito, Web Developer, PHP Developer, MySQL, JavaScript, HTML5, CSS3, WasteWise, BSIT, Portfolio" />
+    <meta name="author" content="Charles Eiric N. Melegrito" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Charles Eiric N. Melegrito - Portfolio" />
+    <meta property="og:description" content="Modern, responsive personal developer portfolio featuring projects like WasteWise, skills in PHP/MySQL/JS, and full-stack web solutions." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6.5.2 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS (CSS Variables, Dark/Light Mode, Animations) -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Ambient Background Lighting Orbs -->
+    <div class="bg-ambient-orb orb-hero-1"></div>
+    <div class="bg-ambient-orb orb-hero-2"></div>
+    <div class="bg-ambient-orb orb-skills"></div>
+
+    <!-- ====================================================================
+         1. FIXED NAVBAR
+         ==================================================================== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- Logo / Brand Name -->
+        <a href="#home" class="nav-logo" aria-label="Charles Melegrito Homepage">
+          Charles<span>.</span>
+        </a>
+
+        <!-- Desktop & Mobile Navigation Links -->
+        <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Right Side Nav Actions: Theme Toggle, Resume & Mobile Hamburger -->
+        <div class="nav-actions">
+          <!-- Dark / Light Mode Toggle Button -->
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark and Light Mode" title="Toggle Theme">
+            <i id="theme-icon" class="fa-solid fa-sun"></i>
+          </button>
+
+          <!-- Contact / Hire Button -->
+          <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+            <i class="fa-solid fa-paper-plane"></i> Let's Talk
+          </a>
+
+          <!-- Mobile Menu Toggle Button -->
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Mobile Menu" aria-expanded="false">
+            <i id="mobile-menu-icon" class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================================================================
+           2. HERO SECTION
+           ================================================================== -->
+      <section class="section hero-section" id="home">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Column: Content & Dynamic Typewriter -->
+            <div class="hero-content reveal-on-scroll">
+              <div class="hero-badge">
+                <span class="status-dot"></span>
+                <span>Open for IT Opportunities &amp; Web Projects</span>
+              </div>
+
+              <!-- [EDITABLE]: Your Name -->
+              <h1 class="hero-title">
+                Hi, I'm <span class="name-highlight">Charles Eiric N. Melegrito</span>
+              </h1>
+
+              <!-- Animated Typing Subtitle -->
+              <div class="hero-typewriter-wrapper">
+                <span class="typewriter-prefix">I am a </span>
+                <span id="typewriter" class="typewriter-text">Web Developer</span>
+                <span class="typewriter-cursor"></span>
+              </div>
+
+              <!-- [EDITABLE]: Hero Introduction -->
+              <p class="hero-description">
+                I create modern, responsive, and user-friendly websites and digital experiences with clean code, robust database architectures, and intuitive design.
+              </p>
+
+              <!-- CTA Action Buttons -->
+              <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary btn-lg">
+                  <i class="fa-solid fa-layer-group"></i> View My Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg">
+                  <i class="fa-solid fa-envelope"></i> Contact Me
+                </a>
+                <a href="#about" class="btn btn-secondary btn-lg" id="resume-btn">
+                  <i class="fa-solid fa-file-lines"></i> View Resume
+                </a>
+              </div>
+
+              <!-- Social Links -->
+              <!-- [EDITABLE]: Replace hrefs with your actual social profile URLs -->
+              <div class="hero-socials">
+                <a href="mailto:charlesmelegrito@gmail.com" class="social-link" title="Email Charles" aria-label="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook Profile" aria-label="Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Avatar Graphic Card with Micro-Interactions -->
+<div class="hero-visual reveal-on-scroll reveal-delay-2">
+  <div class="hero-avatar-frame">
+    <div class="hero-avatar-inner">
+      <!-- Charles Eiric Melegrito Profile Photo -->
+      <img 
+        src="./profile.jpg" 
+        alt="Charles Eiric N. Melegrito" 
+        class="hero-avatar-img" 
+        id="profile-img"
+        onerror="this.style.display='none'; document.getElementById('avatar-svg-fallback').style.display='block';"
+      />
+      
+      <!-- Fallback Illustration (kusang lalabas kapag wala pang na-upload na profile.jpg) -->
+      <svg id="avatar-svg-fallback" class="hero-avatar-img" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Charles Eiric Melegrito Developer Avatar" style="display: none;">
+        ...
+      </svg>
+    </div>
+
+    <!-- Floating Interactive Badges -->
+    <div class="floating-chip chip-top">
+      <div class="chip-icon">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <div class="chip-text">
+        <h4>Full-Stack Ready</h4>
+        <p>PHP • MySQL • JS</p>
+      </div>
+    </div>
+
+    <div class="floating-chip chip-bottom">
+      <div class="chip-icon">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
+      <div class="chip-text">
+        <h4>BSIT Graduate (2026)</h4>
+        <p>Web &amp; Database Dev</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Scroll down mouse guide -->
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span>Scroll Down</span>
+        </a>
+      </section>
+
+      <!-- ==================================================================
+           3. ABOUT ME SECTION
+           ================================================================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-user-astronaut"></i> Discover
+            </span>
+            <h2 class="section-title">About <span>Me</span></h2>
+            <p class="section-subtitle">
+              Passionate about bridging technical foundations with dynamic, responsive web development.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <!-- Left Side: Bio & Core Strengths -->
+            <div class="about-text reveal-on-scroll">
+              <p class="about-lead">
+                I am an Information Technology graduate from <strong>Our Lady of the Sacred Heart College of Guimba, Inc.</strong> with hands-on experience developing database-driven web systems and e-commerce platforms.
+              </p>
+              
+              <p>
+                My passion lies in crafting clean, efficient, and accessible web solutions. With a solid foundation in both <strong>front-end interfaces (HTML, CSS, JavaScript)</strong> and <strong>back-end engineering (PHP, MySQL)</strong>, I focus on building systems that solve practical challenges — from e-commerce workflows to academic management systems.
+              </p>
+
+              <!-- Quick Highlights Matrix -->
+              <div class="about-pills-grid">
+                <div class="about-pill-item">
+                  <i class="fa-solid fa-laptop-code"></i>
+                  <span>Full-Stack Web Dev</span>
+                </div>
+                <div class="about-pill-item">
+                  <i class="fa-solid fa-database"></i>
+                  <span>MySQL Database Design</span>
+                </div>
+                <div class="about-pill-item">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <span>Responsive UI/UX</span>
+                </div>
+                <div class="about-pill-item">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Hosting &amp; Deployment</span>
+                </div>
+              </div>
+
+              <p>
+                I am eager to contribute strong problem-solving abilities, high adaptability, and a genuine passion for modern technologies to create impactful digital products.
+              </p>
+            </div>
+
+            <!-- Right Side: Animated Stats Cards Grid -->
+            <div class="stats-grid reveal-on-scroll reveal-delay-2">
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <div class="stat-number">
+                  <span class="stat-count" data-target="4">0</span>+
+                </div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+
+             <div class="stat-card">
+    <div class="stat-icon">
+      <i class="fa-solid fa-certificate"></i>
+    </div>
+    <div class="stat-number">
+      <span class="stat-count" data-target="2">0</span>+
+    </div>
+    <div class="stat-label">Seminars Attended</div>
+  </div>
+
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-calendar-check"></i>
+                </div>
+                <div class="stat-number">
+                  <span class="stat-count" data-target="4">0</span>+
+                </div>
+                <div class="stat-label">Years of IT Learning</div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <div class="stat-number">
+                  <span class="stat-count" data-target="100">0</span>%
+                </div>
+                <div class="stat-label">Dedication to Quality</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           4. SKILLS SECTION
+           ================================================================== -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> Technical Toolkit
+            </span>
+            <h2 class="section-title">My <span>Skills &amp; Expertise</span></h2>
+            <p class="section-subtitle">
+              Demonstrated proficiencies across front-end crafting, database management, and web deployment.
+            </p>
+          </div>
+
+          <div class="skills-container">
+            <!-- Skill Category 1: Front-End Development -->
+            <div class="skill-category-card reveal-on-scroll">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fa-brands fa-html5"></i>
+                </div>
+                <div>
+                  <h3>Front-End Web Development</h3>
+                  <p>Client-side UI, layouts, and interactions</p>
+                </div>
+              </div>
+
+              <div class="skills-list">
+                <!-- HTML5 -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML5 (Semantic &amp; Accessible)</span>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="95%"></div>
+                  </div>
+                </div>
+
+                <!-- CSS3 -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-brands fa-css3-alt"></i> CSS3, Flexbox &amp; CSS Grid</span>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="90%"></div>
+                  </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-brands fa-js"></i> JavaScript (ES6+ &amp; DOM)</span>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="85%"></div>
+                  </div>
+                </div>
+
+                <!-- Responsive Design -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-mobile-screen-button"></i> Responsive Web Design</span>
+                    <span class="skill-percentage">92%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="92%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category 2: Back-End & Database -->
+            <div class="skill-category-card reveal-on-scroll reveal-delay-1">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fa-brands fa-php"></i>
+                </div>
+                <div>
+                  <h3>Back-End &amp; Databases</h3>
+                  <p>Server scripting, data storage &amp; schemas</p>
+                </div>
+              </div>
+
+              <div class="skills-list">
+                <!-- PHP -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-brands fa-php"></i> PHP (Dynamic Web Apps)</span>
+                    <span class="skill-percentage">88%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="88%"></div>
+                  </div>
+                </div>
+
+                <!-- MySQL -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-database"></i> MySQL Database Management</span>
+                    <span class="skill-percentage">86%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="86%"></div>
+                  </div>
+                </div>
+
+                <!-- XAMPP Environment -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-server"></i> XAMPP &amp; Apache Server</span>
+                    <span class="skill-percentage">88%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="88%"></div>
+                  </div>
+                </div>
+
+                <!-- UI/UX Principles -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-pen-ruler"></i> UI/UX Principles &amp; Usability</span>
+                    <span class="skill-percentage">82%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="82%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category 3: Tools & Hosting -->
+            <div class="skill-category-card reveal-on-scroll reveal-delay-2">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <div>
+                  <h3>Tools &amp; Infrastructure</h3>
+                  <p>Version control, deployment &amp; reporting</p>
+                </div>
+              </div>
+
+              <div class="skills-list">
+                <!-- Git & GitHub -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub Versioning</span>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="85%"></div>
+                  </div>
+                </div>
+
+                <!-- Web Hosting & Domain -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-globe"></i> Web Hosting &amp; Domain Setup</span>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="80%"></div>
+                  </div>
+                </div>
+
+                <!-- Microsoft Office (Word, Excel) -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-file-excel"></i> MS Office Documentation</span>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="90%"></div>
+                  </div>
+                </div>
+
+                <!-- Web Security & PDO -->
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"><i class="fa-solid fa-shield-halved"></i> Web Security &amp; Auth</span>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" data-percent="80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           5. PROJECTS SHOWCASE SECTION
+           ================================================================== -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-laptop-code"></i> Portfolio Showcase
+            </span>
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <p class="section-subtitle">
+              Explore recent web systems, e-commerce platforms, and interactive applications I've built.
+            </p>
+          </div>
+
+          <!-- Project Filter Category Pills -->
+          <div class="projects-filter reveal-on-scroll">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Applications</button>
+            <button class="filter-btn" data-filter="php">PHP &amp; MySQL</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript &amp; UI</button>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid">
+            <!-- Project 1: WasteWise E-Commerce Platform (From Resume) -->
+            <article class="project-card reveal-on-scroll" data-category="web php">
+              <div class="project-image-wrapper">
+                <!-- Visual Project Mockup Header -->
+                <svg class="project-thumbnail" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="500" height="300" fill="#0d1117"/>
+                  <!-- Card Header Bar -->
+                  <rect x="20" y="20" width="460" height="260" rx="12" fill="#161b22" stroke="#30363d"/>
+                  <circle cx="45" cy="42" r="6" fill="#ff5f56"/>
+                  <circle cx="65" cy="42" r="6" fill="#ffbd2e"/>
+                  <circle cx="85" cy="42" r="6" fill="#27c93f"/>
+                  <rect x="120" y="34" width="260" height="16" rx="8" fill="#21262d"/>
+                  <!-- WasteWise Hero Banner / Eco Cart -->
+                  <rect x="40" y="70" width="420" height="80" rx="8" fill="url(#ecoGrad)"/>
+                  <text x="60" y="115" font-family="'Outfit', sans-serif" font-weight="bold" font-size="22" fill="#ffffff">WasteWise E-Commerce</text>
+                  <text x="60" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#d1fae5">Recycled &amp; Upcycled Sustainable Marketplace</text>
+                  <!-- Products Grid Preview -->
+                  <rect x="40" y="165" width="130" height="95" rx="6" fill="#21262d"/>
+                  <rect x="185" y="165" width="130" height="95" rx="6" fill="#21262d"/>
+                  <rect x="330" y="165" width="130" height="95" rx="6" fill="#21262d"/>
+                  <defs>
+                    <linearGradient id="ecoGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#059669"/>
+                      <stop offset="100%" stop-color="#10b981"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+
+                <span class="project-badge-tag">Featured Project</span>
+
+                <div class="project-overlay">
+                  <a href="#" class="project-overlay-btn" data-project-id="wastewise" title="Quick View Details">
+                    <i class="fa-solid fa-eye"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-overlay-btn" title="View Source Code">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">WasteWise (E-Commerce Platform)</h3>
+                <p class="project-description">
+                  A full-featured PHP-based e-commerce platform for recycled goods. Features cart, checkout, user authentication, order tracking, and seller-buyer messaging.
+                </p>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5/CSS3</span>
+                  <span class="tech-tag">XAMPP</span>
+                </div>
+
+                <div class="project-actions">
+                  <button class="btn btn-primary btn-sm" data-project-id="wastewise">
+                    <i class="fa-solid fa-circle-info"></i> Project Details
+                  </button>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <i class="fa-brands fa-github"></i> Source Code
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Modern Personal Portfolio (Vanilla JS & CSS Variables) -->
+            <article class="project-card reveal-on-scroll reveal-delay-1" data-category="web javascript">
+              <div class="project-image-wrapper">
+                <svg class="project-thumbnail" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="500" height="300" fill="#0a0a0c"/>
+                  <rect x="20" y="20" width="460" height="260" rx="12" fill="#16161d" stroke="rgba(255,42,133,0.3)"/>
+                  <circle cx="45" cy="42" r="6" fill="#ff2a85"/>
+                  <circle cx="65" cy="42" r="6" fill="#ff6b9d"/>
+                  <circle cx="85" cy="42" r="6" fill="#7928ca"/>
+                  <!-- Portfolio Mockup Elements -->
+                  <text x="50" y="110" font-family="'Outfit', sans-serif" font-weight="bold" font-size="28" fill="#ffffff">Charles<tspan fill="#ff2a85">.</tspan> Portfolio</text>
+                  <text x="50" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#a1a1aa">Dark &amp; Light Theming • Glassmorphism • Vanilla JS</text>
+                  <!-- Glass cards in mockup -->
+                  <rect x="50" y="165" width="180" height="90" rx="8" fill="rgba(255,42,133,0.1)" stroke="rgba(255,42,133,0.4)"/>
+                  <rect x="250" y="165" width="200" height="90" rx="8" fill="#1e1e24" stroke="rgba(255,255,255,0.08)"/>
+                </svg>
+
+                <span class="project-badge-tag">Frontend &amp; UI</span>
+
+                <div class="project-overlay">
+                  <a href="#" class="project-overlay-btn" data-project-id="portfolio" title="Quick View Details">
+                    <i class="fa-solid fa-eye"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-overlay-btn" title="View Source Code">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">Responsive Personal Portfolio</h3>
+                <p class="project-description">
+                  A modern, responsive portfolio website built with vanilla HTML, CSS variables, and JavaScript. Features dark/light mode toggle, scroll reveal, and zero external framework load.
+                </p>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Vanilla JS</span>
+                  <span class="tech-tag">LocalStorage</span>
+                </div>
+
+                <div class="project-actions">
+                  <button class="btn btn-primary btn-sm" data-project-id="portfolio">
+                    <i class="fa-solid fa-circle-info"></i> Project Details
+                  </button>
+                  <a href="#home" class="btn btn-secondary btn-sm">
+                    <i class="fa-solid fa-arrow-up"></i> Live View
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           6. EDUCATION & SEMINARS SECTION
+           ================================================================== -->
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-graduation-cap"></i> Academic Journey
+            </span>
+            <h2 class="section-title">Education &amp; <span>Seminars</span></h2>
+            <p class="section-subtitle">
+              My educational background, academic achievements, and industry research summits.
+            </p>
+          </div>
+
+          <div class="education-grid">
+            <!-- Left Column: Educational Background -->
+            <div class="timeline-column reveal-on-scroll">
+              <h3>
+                <i class="fa-solid fa-school"></i> Academic Background
+              </h3>
+
+              <div class="timeline-wrapper">
+                <!-- College (2022 - 2026) -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">2022 — 2026</span>
+                    <h4 class="timeline-degree">Bachelor of Science in Information Technology (BSIT)</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-building-columns"></i> Our Lady of the Sacred Heart College of Guimba, Inc.
+                    </p>
+                    <p class="timeline-desc">
+                      Focused on full-stack web development, relational database architectures, software engineering methodologies, and real-world system development (WasteWise e-commerce platform).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Secondary Education (2016 - 2022) -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">2016 — 2022</span>
+                    <h4 class="timeline-degree">Senior High School — Technical-Vocational-Livelihood (TVL)</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-school"></i> Bartolome Sangalang National High School
+                    </p>
+                    <p class="timeline-desc">
+                      Gained comprehensive hands-on training in computer systems servicing, basic programming logic, and technical documentation.
+                    </p>
+                    <div class="timeline-highlight">
+                      <i class="fa-solid fa-award"></i> Graduated With Honors (2019 — 2021)
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Elementary Education (2010 - 2016) -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">2010 — 2016</span>
+                    <h4 class="timeline-degree">Elementary Education</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-location-dot"></i> Cawayan Bugtong Elementary School, Guimba, Nueva Ecija
+                    </p>
+                    <p class="timeline-desc">
+                      Primary education establishing leadership, foundational math, and communication skills.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Seminars & Industry Certifications -->
+            <div class="timeline-column reveal-on-scroll reveal-delay-1">
+              <h3>
+                <i class="fa-solid fa-certificate"></i> Seminars &amp; Summits
+              </h3>
+
+              <div class="timeline-wrapper">
+                <!-- Seminar 1: Y4iT (2024) -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">2024</span>
+                    <h4 class="timeline-degree">Y4iT Research Summit (Youth for Information Technology)</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-users"></i> National IT Congress &amp; Research Forum
+                    </p>
+                    <p class="timeline-desc">
+                      Participated in key sessions covering emerging cloud technologies, modern web paradigms, AI-assisted development tools, and best practices in software sustainability.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Seminar 2: RAITE (2024) -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">2024</span>
+                    <h4 class="timeline-degree">Regional Assembly on Information Technology Education (RAITE)</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-chalkboard-user"></i> Regional IT Education Assembly
+                    </p>
+                    <p class="timeline-desc">
+                      Attended technical discussions regarding regional IT workforce readiness, database security standards, and responsive web accessibility guidelines.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Continuous Learning -->
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <span class="timeline-year">Ongoing</span>
+                    <h4 class="timeline-degree">Self-Directed Learning &amp; Web Standards</h4>
+                    <p class="timeline-institution">
+                      <i class="fa-solid fa-code"></i> Modern JavaScript &amp; Backend Engineering
+                    </p>
+                    <p class="timeline-desc">
+                      Continuously expanding knowledge in modern JavaScript (ES6+), secure PHP backend patterns, database query optimization, and UI design systems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           7. SERVICES SECTION
+           ================================================================== -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-cubes"></i> What I Offer
+            </span>
+            <h2 class="section-title">My <span>Services</span></h2>
+            <p class="section-subtitle">
+              High-quality web development, responsive user interfaces, and database solutions tailored to user needs.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <!-- Service 1: Web Development -->
+            <div class="service-card reveal-on-scroll">
+              <div class="service-icon-box">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                Developing dynamic, secure, and data-driven web applications using modern PHP, MySQL, and vanilla web standards.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Custom Web Application Logic</li>
+                <li><i class="fa-solid fa-check"></i> Authentication &amp; User Roles</li>
+                <li><i class="fa-solid fa-check"></i> Dynamic Content Management</li>
+              </ul>
+            </div>
+
+            <!-- Service 2: Front-End Development -->
+            <div class="service-card reveal-on-scroll reveal-delay-1">
+              <div class="service-icon-box">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <h3>Front-End Development</h3>
+              <p>
+                Building pixel-perfect, interactive, and high-performance client interfaces using pure HTML5, modern CSS3, and JavaScript.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Modular &amp; Clean Code</li>
+                <li><i class="fa-solid fa-check"></i> Smooth Interactive Animations</li>
+                <li><i class="fa-solid fa-check"></i> Cross-Browser Compatibility</li>
+              </ul>
+            </div>
+
+            <!-- Service 3: Website Design -->
+            <div class="service-card reveal-on-scroll reveal-delay-2">
+              <div class="service-icon-box">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <h3>Website Design</h3>
+              <p>
+                Designing attractive, accessible, and intuitive UI layouts with thoughtful color palettes, typography, and dark/light mode parity.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Dark &amp; Light Theming</li>
+                <li><i class="fa-solid fa-check"></i> Glassmorphism &amp; Glow Effects</li>
+                <li><i class="fa-solid fa-check"></i> Modern Typography Pairing</li>
+              </ul>
+            </div>
+
+            <!-- Service 4: Responsive Web Design -->
+            <div class="service-card reveal-on-scroll">
+              <div class="service-icon-box">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <h3>Responsive Web Design</h3>
+              <p>
+                Ensuring your websites look and operate effortlessly across smartphones, tablets, laptops, and ultra-wide desktops.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Mobile-First Media Queries</li>
+                <li><i class="fa-solid fa-check"></i> Fluid Grids &amp; Flexbox</li>
+                <li><i class="fa-solid fa-check"></i> Zero Horizontal Scroll Bugs</li>
+              </ul>
+            </div>
+
+            <!-- Service 5: Database Development -->
+            <div class="service-card reveal-on-scroll reveal-delay-1">
+              <div class="service-icon-box">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h3>Database Development</h3>
+              <p>
+                Designing normalized relational schemas in MySQL, writing optimized queries, and establishing secure data connections.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Schema Modeling &amp; Normalization</li>
+                <li><i class="fa-solid fa-check"></i> CRUD Query Optimization</li>
+                <li><i class="fa-solid fa-check"></i> Data Integrity &amp; Backups</li>
+              </ul>
+            </div>
+
+            <!-- Service 6: Website Maintenance -->
+            <div class="service-card reveal-on-scroll reveal-delay-2">
+              <div class="service-icon-box">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <h3>Website Maintenance</h3>
+              <p>
+                Handling web hosting setup, domain configuration, troubleshooting bugs, speed enhancements, and content updates.
+              </p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-check"></i> Hosting &amp; Domain Setup</li>
+                <li><i class="fa-solid fa-check"></i> Bug Fixing &amp; Code Refactoring</li>
+                <li><i class="fa-solid fa-check"></i> Performance &amp; Asset Optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           8. CONTACT SECTION
+           ================================================================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-badge">
+              <i class="fa-solid fa-paper-plane"></i> Get In Touch
+            </span>
+            <h2 class="section-title">Let's <span>Connect</span></h2>
+            <p class="section-subtitle">
+              Have a project, opportunity, or question? Feel free to reach out directly or send a message below!
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Column: Contact Information Cards -->
+            <div class="contact-info reveal-on-scroll">
+              <div class="contact-info-card">
+                <div class="contact-info-header">
+                  <h3>Contact Information</h3>
+                  <p>You can contact me anytime through the following channels:</p>
+                </div>
+
+                <div class="contact-items-list">
+                  <!-- Email (From Resume) -->
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-item-details">
+                      <div class="contact-item-label">Email Address</div>
+                      <a href="mailto:charlesmelegrito@gmail.com" class="contact-item-value">charlesmelegrito@gmail.com</a>
+                    </div>
+                    <button class="copy-btn" data-copy="charlesmelegrito@gmail.com" title="Copy Email" aria-label="Copy Email">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+
+                  <!-- Phone Number (From Resume) -->
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-item-details">
+                      <div class="contact-item-label">Phone Number</div>
+                      <a href="tel:09638877378" class="contact-item-value">0963-887-7378</a>
+                    </div>
+                    <button class="copy-btn" data-copy="0963-887-7378" title="Copy Phone Number" aria-label="Copy Phone Number">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+
+                  <!-- Location (From Resume) -->
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-item-details">
+                      <div class="contact-item-label">Location</div>
+                      <span class="contact-item-value">Cawayan Bugtong, Guimba, Nueva Ecija, Philippines</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Profiles Card -->
+              <div class="contact-info-card">
+                <div class="contact-info-header">
+                  <h3>Online Profiles</h3>
+                  <p>Connect with me across social &amp; code platforms:</p>
+                </div>
+
+                <div class="hero-socials">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="mailto:charlesmelegrito@gmail.com" class="social-link" title="Direct Email" aria-label="Email">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Contact Form -->
+            <div class="contact-form-card reveal-on-scroll reveal-delay-1">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group-row">
+                  <!-- Name Input -->
+                  <div class="form-group">
+                    <label for="form-name" class="form-label">Your Name *</label>
+                    <input type="text" id="form-name" name="name" class="form-control" placeholder="e.g. Juan Dela Cruz" required />
+                  </div>
+
+                  <!-- Email Input -->
+                  <div class="form-group">
+                    <label for="form-email" class="form-label">Your Email *</label>
+                    <input type="email" id="form-email" name="email" class="form-control" placeholder="e.g. juan@example.com" required />
+                  </div>
+                </div>
+
+                <!-- Subject Input -->
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject *</label>
+                  <input type="text" id="form-subject" name="subject" class="form-control" placeholder="e.g. Job Opportunity / Project Inquiry" required />
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Your Message *</label>
+                  <textarea id="form-message" name="message" class="form-control" placeholder="Hi Charles, I would like to discuss..." required></textarea>
+                </div>
+
+                <!-- Status Feedback -->
+                <div id="form-status" class="form-status" role="alert"></div>
+
+                <!-- Submit Button -->
+                <button type="submit" id="submit-btn" class="btn btn-primary btn-lg">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         9. FOOTER
+         ==================================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h2>Charles<span>.</span></h2>
+            <p>
+              Web Developer &amp; Information Technology Student dedicated to building modern, responsive, and reliable web applications.
+            </p>
+            <div class="hero-socials">
+              <a href="mailto:charlesmelegrito@gmail.com" class="social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h4>Quick Navigation</h4>
+            <div class="footer-links-list">
+              <a href="#home">Home</a>
+              <a href="#about">About Me</a>
+              <a href="#skills">Skills &amp; Toolkit</a>
+              <a href="#projects">Project Showcase</a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h4>Resources</h4>
+            <div class="footer-links-list">
+              <a href="#education">Education &amp; Seminars</a>
+              <a href="#services">Services Offered</a>
+              <a href="#contact">Get In Touch</a>
+              <a href="mailto:charlesmelegrito@gmail.com">Direct Email</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Charles Eiric N. Melegrito. All rights reserved.</p>
+          <p>Built with Pure HTML5, CSS3, &amp; Vanilla JavaScript.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====================================================================
+         10. PROJECT DETAILS MODAL
+         ==================================================================== -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true" role="dialog">
+      <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal-header">
+          <span id="modal-project-category" class="section-badge">Project</span>
+          <h2 id="modal-project-title">Project Title</h2>
+          <p id="modal-project-duration" style="color: var(--accent); font-weight: 600; font-size: 0.9rem;"></p>
+        </div>
+
+        <div class="modal-body">
+          <p id="modal-project-desc" style="margin-bottom: 1.5rem;"></p>
+
+          <h4 style="margin-bottom: 0.75rem; color: var(--text-primary);">Key Architectural Features:</h4>
+          <ul id="modal-project-features" style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <!-- Populated via script.js -->
+          </ul>
+
+          <h4 style="margin-bottom: 0.75rem; color: var(--text-primary);">Technology Stack:</h4>
+          <div id="modal-project-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem;">
+            <!-- Populated via script.js -->
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a id="modal-code-btn" href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         10B. RESUME PREVIEW & PRINT MODAL
+         ==================================================================== -->
+    <div id="resume-modal" class="modal-overlay" aria-hidden="true" role="dialog">
+      <div class="modal-content" style="max-width: 820px;">
+        <button id="resume-modal-close" class="modal-close-btn" aria-label="Close resume modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="section-badge"><i class="fa-solid fa-file-pdf"></i> Curriculum Vitae</span>
+              <h2 style="font-size: 1.85rem; margin-top: 0.35rem;">CHARLES EIRIC N. MELEGRITO</h2>
+              <p style="color: var(--accent); font-weight: 700; font-size: 0.95rem;">Web Developer | BSIT Graduate</p>
+            </div>
+            <div style="display: flex; gap: 0.6rem;">
+              <button onclick="window.print()" class="btn btn-primary btn-sm" title="Print or Save as PDF">
+                <i class="fa-solid fa-print"></i> Print / Save PDF
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-body" style="padding-top: 1rem; display: flex; flex-direction: column; gap: 1.5rem;">
+          <!-- Contact Row -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-sm);">
+            <div><i class="fa-solid fa-phone" style="color: var(--accent);"></i> <strong>0963-887-7378</strong></div>
+            <div><i class="fa-solid fa-envelope" style="color: var(--accent);"></i> <strong>charlesmelegrito@gmail.com</strong></div>
+            <div style="grid-column: 1 / -1;"><i class="fa-solid fa-location-dot" style="color: var(--accent);"></i> Cawayan Bugtong, Guimba, Nueva Ecija</div>
+          </div>
+
+          <!-- Career Objective -->
+          <div>
+            <h4 style="color: var(--text-primary); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">Career Objective</h4>
+            <p style="font-size: 0.95rem; line-height: 1.65; margin-top: 0.35rem;">
+              Highly motivated and dedicated Information Technology graduate seeking an entry-level position where I can apply my academic knowledge and technical skills while gaining hands-on experience. Eager to contribute strong problem-solving abilities, adaptability, and a passion for technology to support organizational success and continuously enhance my professional growth.
+            </p>
+          </div>
+
+          <!-- Professional Experience -->
+          <div>
+            <h4 style="color: var(--text-primary); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">Professional Experience</h4>
+            <div style="margin-top: 0.5rem;">
+              <div style="display: flex; justify-content: space-between; font-weight: 700; color: var(--text-primary);">
+                <span>WasteWise (E-Commerce) Project — Developer</span>
+                <span style="color: var(--accent);">2024 — 2026</span>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Our Lady of the Sacred Heart College of Guimba, Inc.</p>
+              <ul style="list-style: disc; margin-left: 1.25rem; font-size: 0.92rem; display: flex; flex-direction: column; gap: 0.35rem;">
+                <li>Designed and developed a PHP-based e-commerce system (WasteWise) with integrated cart, checkout, and order management features to support efficient online transactions.</li>
+                <li>Implemented core functionalities such as user authentication, product browsing, order tracking, and seller-buyer communication to enhance platform usability.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Educational Background -->
+          <div>
+            <h4 style="color: var(--text-primary); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">Educational Background</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-top: 0.5rem;">
+              <div>
+                <div style="display: flex; justify-content: space-between; font-weight: 700; color: var(--text-primary);">
+                  <span>Bachelor of Science in Information Technology</span>
+                  <span style="color: var(--accent);">2022 — 2026</span>
+                </div>
+                <p style="font-size: 0.9rem;">Our Lady of the Sacred Heart College of Guimba, Inc.</p>
+              </div>
+
+              <div>
+                <div style="display: flex; justify-content: space-between; font-weight: 700; color: var(--text-primary);">
+                  <span>Senior High School — TVL Track (With Honors 2019-2021)</span>
+                  <span style="color: var(--accent);">2016 — 2022</span>
+                </div>
+                <p style="font-size: 0.9rem;">Bartolome Sangalang National High School</p>
+              </div>
+
+              <div>
+                <div style="display: flex; justify-content: space-between; font-weight: 700; color: var(--text-primary);">
+                  <span>Elementary Education</span>
+                  <span style="color: var(--accent);">2010 — 2016</span>
+                </div>
+                <p style="font-size: 0.9rem;">Cawayan Bugtong, Guimba, Nueva Ecija</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills & Seminars -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+            <div>
+              <h4 style="color: var(--text-primary); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">Skills</h4>
+              <ul style="list-style: disc; margin-left: 1.25rem; font-size: 0.9rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                <li>Front-End: HTML, CSS, JavaScript</li>
+                <li>Database: MySQL &amp; XAMPP environment</li>
+                <li>Back-End: PHP for dynamic web apps</li>
+                <li>MS Office (Word, Excel) Documentation</li>
+                <li>Web Hosting &amp; Domain Management</li>
+                <li>Responsive Web Design &amp; UI Principles</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 style="color: var(--text-primary); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">Seminars</h4>
+              <ul style="list-style: disc; margin-left: 1.25rem; font-size: 0.9rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                <li>Y4iT Research Summit (2024)</li>
+                <li>Regional Assembly on IT Education (RAITE 2024)</li>
+              </ul>
+
+              <h4 style="color: var(--text-primary); margin-top: 1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.95rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 2px;">References</h4>
+              <div style="font-size: 0.85rem; margin-top: 0.35rem; display: flex; flex-direction: column; gap: 0.4rem;">
+                <div><strong>Jess Valeroso Millo</strong> — Brgy. Secretary (0967-887-7553)</div>
+                <div><strong>Hon. Rissa M. Astrero</strong> — Brgy. Councilor (0919-943-5992)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         11. FLOATING SCROLL TO TOP BUTTON
+         ==================================================================== -->
+    <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top" title="Scroll to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-notification" class="toast-notification" role="status" aria-live="polite">
+      <i class="fa-solid fa-circle-info"></i>
+      <span>Notification</span>
+    </div>
+
+    <!-- Vanilla JavaScript Core Module -->
+    <script src="./script.js"></script>
+  </body>
+</html>
